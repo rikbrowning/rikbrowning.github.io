@@ -1,9 +1,5 @@
 # Site settings
-title: "Rik's Blog"
-description: > # this means to ignore newlines until "baseurl:"
-  Blog website for me, Richard Browning.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rikbrowning.github.com" # the base hostname & protocol for your site
+url: http://rikbrowning.github.io # the base hostname & protocol for your site
 
 
 # Build settings
