@@ -29,12 +29,6 @@ body {
 
 p {
   margin: auto auto $typl8-indent-val;
-  @if $typl8-paragraph-spacing == false {
-    & + p {
-      text-indent: $typl8-indent-val;
-      margin-top: -$typl8-indent-val;
-    }
-  }
 }
 
 // $Blockquotes
