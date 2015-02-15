@@ -1,5 +1,5 @@
 .site-header {
-  .title a {
+   a {
     color:$brand-color;
     text-decoration: none;
     &:visited {
@@ -8,6 +8,20 @@
     &:hover {
       color: $text-color;
       text-decoration: none;
+    }
+  }
+  nav,h2{
+    display:inline-block;
+  }
+  nav{
+    margin-left:20px;
+    vertical-align: text-bottom;
+    a{
+      display:inline-block;
+      padding:10px;
+      &:hover{
+        background-color:#eee;
+      }
     }
   }
 }
