@@ -48,6 +48,25 @@ Off the back of working of this UI work I was chosen to lead a new project in HP
 
 As well as working on this project I have also been asked to lead another UI team that is too create a UI on top of a new cloud API that is being created in our office. This is great as I am able to dog food the work from my other project and push feedback straight into it. This UI is written in **Tyescript**, **Angular** and **LESS** using **Grunt** to build it.
 
-### Technology ###
+### Technical Skills ###
+
+I consider myself a web developer and have developed my technical skills accordingly. I love Javascript, seems almost anything can be written in it, I have experience in different libraries such as **Knockout.JS**, **Angular** and **jQuery** but am always willing to try something new. I have experience with the **LESS** CSS preprocessor as well as **Grunt** for building projects. I have also used **Typescript** extensively to provide type safety through out larger applications. I always keep up to date with the latest web technologies and try to integrate them into projects were applicable. I try to use **HTML5** and **CSS3**  as much as possible.
+
+I have lots of experience developing **C#** applications ranging from command line interfaces, games to cloud hosted websites in the **Azure** cloud. Most projects I have been a part of have used **SQL Server** for data storage.
+
+Source control has always been used on project I have worked on so I have experience in using **Git**, **Perforce**, **Subversion** and **Source Depot**.
+
+At HP Autonomy I was lucky enough to receive **Agile** training and I am currently **Scrum Master** on a project. I also try to write **DRY** code and always follow **YAGNI** which I feel is critical as over engineering is a huge issue on most projects.
+
+### Outside Work ###
+
+I have recently taken up mountain biking in my spare time and I am really enjoying getting to explore the great trails that have been created through out Northern Ireland recently. I am also a keen Ulster Rugby fan, having played in school and Antrim Rugby Club, and regularly attend Ulster matches at the Kingspan Stadium, it's a great way to spend your Friday night! 
+
+
+### Contact ###
+
+Want to get in touch? Email me at [r.browning@live.com](mailto:r.browning@live.com)
+
+
 
 
