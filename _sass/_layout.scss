@@ -1,6 +1,6 @@
 .site-header {
-   a {
-    color:$brand-color;
+  a {
+    color: $brand-color;
     text-decoration: none;
     &:visited {
       color: $brand-color;
@@ -10,17 +10,33 @@
       text-decoration: none;
     }
   }
-  nav,h2{
-    display:inline-block;
+  nav,
+  h2 {
+    display: inline-block;
   }
-  nav{
-    margin-left:20px;
+  nav {
+    margin-left: 20px;
     vertical-align: text-bottom;
-    a{
-      display:inline-block;
-      padding:10px;
-      &:hover{
-        background-color:#eee;
+    a {
+      display: inline-block;
+      padding: 10px;
+      position: relative;
+      &:before {
+        @include transition(all, 200ms, ease-out);
+        @include transform(scale(0));        
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: "";
+        background-color: #eee;
+        z-index: -1;
+      }
+      &:hover {
+        &:before {
+          @include transform(scale(1));
+        }
       }
     }
   }
