@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "$urlProvider causing Infinite Loop"
-date:   2015-01-16 18:57:29
+date:   2015-02-18 18:57:29
 categories: angular
 author: Rik
 ---
