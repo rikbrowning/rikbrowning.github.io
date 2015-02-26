@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "We are 100vh"
+date:   2015-02-26 18:57:29
+categories: css
+author: Rik
+---
+
+Today I browsed [Sans Bullshit Sans](http://www.sansbullshitsans.com) and noticed (as most sites have these days) a nice large title image taking up most of the screen. Me being a web developer I like seeing how other developers solve problems so I decided to take a look at how the made the image always took up 100% height in the viewport. Then I saw it:
+
+{% highlight css %}
+ height:100vh;
+{% endhighlight %}
+
+##100vh
+
+I hadn't came across this before, so I immediately googled it (as you do). ``vh`` = viewport height, the preceding number is the percentage of the viewport height to take up, so ``100vh`` means that it always takes up 100% of the viewport height even when it changes. What is even better than this is that even IE9 supports it and ``vw`` (viewport width) is also available.
