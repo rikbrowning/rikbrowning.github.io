@@ -1,0 +1,75 @@
+.info {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align:center;
+    font-size:2em;
+    color:#888;
+}
+
+.circle {
+    position: relative;
+    margin: 200px auto 20px auto;
+    width: 50px;
+    height: 50px;
+    background-color: fade-out(blue,0.5);
+    border-radius: 100%;
+    cursor:pointer;
+    &:hover {
+        animation: circle 3s 0s 1;
+        animation-fill-mode: forwards;
+        -webkit-animation: circle 3s 0s 1;
+        -webkit-animation-fill-mode: forwards;
+    }
+}
+
+@-webkit-keyframes circle {
+    0% {
+        box-shadow: 0px 0px fade-out(purple,0.5),0px 0px fade-out(red,0.5), 0px 0px fade-out(orange,0.5),0px 0px fade-out(yellow,0.5), 0px 0px fade-out(green,0.5);
+    }
+
+    20% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -25px fade-out(red,0.5), -43px -25px fade-out(orange,0.5),-43px -25px fade-out(yellow,0.5), -43px -25px fade-out(green,0.5);
+    }
+
+    40% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -75px fade-out(red,0.5), -43px -75px fade-out(orange,0.5),-43px -75px fade-out(yellow,0.5), -43px -75px fade-out(green,0.5);
+    }
+
+    60% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -75px fade-out(red,0.5), 0px -100px fade-out(orange,0.5),0px -100px fade-out(yellow,0.5), 0px -100px fade-out(green,0.5);
+    }
+
+    80% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -75px fade-out(red,0.5), 0px -100px fade-out(orange,0.5),43px -75px fade-out(yellow,0.5), 43px -75px fade-out(green,0.5);
+    }
+
+    100% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -75px fade-out(red,0.5), 0px -100px fade-out(orange,0.5),43px -75px fade-out(yellow,0.5), 43px -25px fade-out(green,0.5);
+    }
+}
+
+@keyframes circle {
+    0% {
+        box-shadow: 0px 0px fade-out(purple,0.5),0px 0px fade-out(red,0.5), 0px 0px fade-out(orange,0.5),0px 0px fade-out(yellow,0.5), 0px 0px fade-out(green,0.5);
+    }
+
+    20% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -25px fade-out(red,0.5), -43px -25px fade-out(orange,0.5),-43px -25px fade-out(yellow,0.5), -43px -25px fade-out(green,0.5);
+    }
+
+    40% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -75px fade-out(red,0.5), -43px -75px fade-out(orange,0.5),-43px -75px fade-out(yellow,0.5), -43px -75px fade-out(green,0.5);
+    }
+
+    60% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -75px fade-out(red,0.5), 0px -100px fade-out(orange,0.5),0px -100px fade-out(yellow,0.5), 0px -100px fade-out(green,0.5);
+    }
+
+    80% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -75px fade-out(red,0.5), 0px -100px fade-out(orange,0.5),43px -75px fade-out(yellow,0.5), 43px -75px fade-out(green,0.5);
+    }
+
+    100% {
+        box-shadow: -43px -25px fade-out(purple,0.5),-43px -75px fade-out(red,0.5), 0px -100px fade-out(orange,0.5),43px -75px fade-out(yellow,0.5), 43px -25px fade-out(green,0.5);
+    }
+}
+
