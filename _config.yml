@@ -5,6 +5,7 @@ url: http://rikbrowning.github.io # the base hostname & protocol for your site
 collections:
   labs:
     output: true
+    permalink: /labs/:title/
 
 # Build settings
 markdown: kramdown

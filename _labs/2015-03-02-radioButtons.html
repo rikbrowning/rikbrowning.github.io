@@ -1,0 +1,80 @@
+---
+layout: lab
+title:  "Fun with Checkboxes and Radio Buttons"
+date:   2015-03-02 18:57:29
+class: "funWithCandR"
+---
+<link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <div class="center">
+    <div class="row">
+      <h5>Single checkbox</h5>
+      <label class="autosave">
+        <input type="checkbox" value="">
+        <span class="fa fa-save"></span>&nbsp; Auto Save
+      </label>
+    </div>
+    <div class="row">
+      <h5>Radio Buttons</h5>
+      <span class="faded">Transportation:</span>
+      <label class="transport">
+        <input type="radio" name="transport" value="car" checked="true">
+        <span>
+  <span class="fa fa-car"></span>&nbsp; Car
+        </span>
+      </label>
+      <label class="transport">
+        <input type="radio" name="transport" value="train">
+        <span>
+  <span class="fa fa-train"></span>&nbsp; Train
+        </span>
+      </label>
+      <label class="transport">
+        <input name="transport" type="radio" value="bicycle">
+        <span>
+        <span class="fa fa-bicycle"></span>&nbsp; Bicycle
+        </span>
+      </label>
+    
+    <div style="margin-top:10px;">
+      <span class="faded">Priority:</span><label class="priority">
+        <input type="radio" name="priority" value="high" checked="true">
+        <span>
+          <span class="fa fa-circle high"></span>
+  <span class="fa fa-circle-o"></span>&nbsp; High
+        </span>
+      </label>
+      <label class="priority">
+        <input type="radio" name="priority" value="medium">
+        <span>
+          <span class="fa fa-circle medium"></span>
+  <span class="fa  fa-circle-o"></span>&nbsp; Medium
+        </span>
+      </label>
+      <label class="priority">
+        <input name="priority" type="radio" value="low">
+        <span>
+        <span class="fa fa-circle low"></span>
+        <span class="fa fa-circle-o"></span>
+          &nbsp; Low
+        </span>
+      </label>
+    </div>
+      <div style="margin-top:10px;">
+      <span class="faded">Address:</span>
+        <label class="address">
+        <input type="radio" name="address" value="home" checked="true">
+        <span>Home
+        </span>
+      </label>
+      <label class="address">
+        <input type="radio" name="address" value="work">
+        <span>Work
+        </span>      </label>
+      <label class="address">
+        <input name="address" type="radio" value="other">
+        <span>Other
+        </span>
+      </label>
+    </div>
+
+  </div>
