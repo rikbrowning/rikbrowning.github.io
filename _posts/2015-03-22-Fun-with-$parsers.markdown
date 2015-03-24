@@ -9,6 +9,6 @@ The NgModelController has two extremely useful properties, ``$parsers`` and ``$f
 
 ##$parsers in action  
 
-Recently created a directive that uses ``$parsers`` to validate the DOM value against the specified regex. If it doesn't match the regex is simply returns and empty string.
+Recently created a directive that uses ``$parsers`` to validate the DOM value against the specified regex. If it doesn't match the regex is simply returns an empty string.
 
 <script src="https://gist.github.com/rikbrowning/0e458bc85235f215e587.js"></script>
