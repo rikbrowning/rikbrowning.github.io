@@ -5,7 +5,7 @@ date:   2015-03-29 18:57:29
 categories: angular
 author: Rik
 ---
-An angular `$scope` has both a `$apply` and `$digest` function but they are subtly different. First off what do they do?
+An Angular `$scope` has both a `$apply` and `$digest` function but they are subtly different. First off what do they do?
 
 ##What they do
 
@@ -13,7 +13,7 @@ I am going to treat both functions as doing the same thing for now, I will elabo
 
 ##When to use them
 
-`$apply` or `$digest` should only be used when an update to a `$scope` value has occurred outside of angular. What do I mean by outside of angular? Well if you use an `ng-click` attribute angular will automatically take care of applying your updates, same if you use `$timeout` instead of `setTimeout`. If you use a `on('click')` then you must make a call to `$apply` or `$digest` in order for angular to be aware of any changes you made. You should never have a `$apply` or `$digest` call in a controller, they should only occur in directives.
+`$apply` or `$digest` should only be used when an update to a `$scope` value has occurred outside of Angular. What do I mean by outside of Angular? Well if you use an `ng-click` attribute Angular will automatically take care of applying your updates, same if you use `$timeout` instead of `setTimeout`. If you use a `on('click')` then you must make a call to `$apply` or `$digest` in order for Angular to be aware of any changes you made. You should never have a `$apply` or `$digest` call in a controller, they should only occur in directives.
 
 ##So what's the difference
 
