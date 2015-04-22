@@ -1,0 +1,118 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fefefe;
+  color: #555;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-wei: normal;
+}
+
+.everything-icon {
+  font-size: 30px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
+  border: 3px solid currentcolor;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.everything-icon.small {
+  font-size: 15px;
+  width: 25px;
+  height: 25px;
+  border-width: 2px;
+}
+
+.everything-icon.large {
+  font-size: 45px;
+  width: 65px;
+  height: 65px;
+}
+
+header {
+  height: 80vh;
+  background: url("img/coffee.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  padding-top: 100px;
+}
+
+.header-text {
+  opacity: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.features {
+  padding-top: 50px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.features .section-header {
+  color: #555;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 50px;
+}
+
+.features .feature {
+  padding: 25px 0;
+}
+
+.features .feature .feature-part {
+  float: left;
+  width: 49%;
+}
+
+.feature-part img {
+  width: 100%;
+}
+
+.feature-part .text {
+  text-align: center;
+}
+
+.feature.friends .feature-part .text {
+  margin-top: 100px;
+}
