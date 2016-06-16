@@ -10,9 +10,17 @@ I am Richard Browning, a Software Engineer from Belfast, Northern Ireland. I con
 
 ### Experience ###
 
+##### NantHealth, Senior Software Engineer
+
+*05/2015 - current*
+
+I work on the UI Framework that the NaviNet Open platform uses to help create its Web UI. I have worked on the framework itself, creating and updating components as well as helping teams use the framework both in Belfast and Boston. I got to take part in a NantHealth UI summit in Dallas which involved UI developers from all over NantHealth meeting to discuss current and future technologies.
+
+Currently we are looking to update our UI Framework technology and have recently decided to use **Polymer** as the basis for our framework.
+
 ##### HP Autonomy, Software Designer
 
-*07/2012 - current*
+*07/2012 - 04/2015*
 
 I began working on the web interface for a new Legacy Data Analysis product, written using **ASP.net MVC** and **Web API** on the server, **Typescript**, **Knockout.JS** and **D3.js** on the client. In this project I was responsible for implementing large parts of the UI as well as getting to work on features that spanned the entire stack of the product.
 
