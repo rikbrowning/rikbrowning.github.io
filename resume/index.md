@@ -14,7 +14,7 @@ I am Richard Browning, a Software Engineer from Belfast, Northern Ireland. I con
 
 *05/2015 - current*
 
-I work on the UI Framework that the NaviNet Open platform uses to help create its Web UI. I have worked on the framework itself, creating and updating components as well as helping teams use the framework both in Belfast and Boston. I got to take part in a NantHealth UI summit in Dallas which involved UI developers from all over NantHealth meeting to discuss current and future technologies.
+I work on the UI Framework that the NaviNet Open platform uses to help create its Web UI. I have worked on the framework itself, creating and updating components as well as helping teams use the framework both in Belfast and Boston. I got to take part in a NantHealth UI summit in Dallas which involved UI developers from all over NantHealth meeting to discuss current and future technologies. I have also tried to spread the love for **JavaScript** by presenting talks on best practices and on the **Web Component** standards that are coming through. I was also given the opportunity to co-host our Off The Grid 2016 event which gives developers the chance to take 2 days and hack something together.
 
 Currently we are looking to update our UI Framework technology and have recently decided to use **Polymer** as the basis for our framework.
 
@@ -59,13 +59,13 @@ I was responsible for mentoring a group of first year students through their **J
 
 ### Technical Skills ###
 
-I consider myself a web developer and I have developed my technical skills accordingly. I love Javascript, it seems almost anything can be written using it. I have experience in different libraries such as **Knockout.JS**, **Angular** and **jQuery** but I am always willing to try something new. I have experience with the **LESS** CSS preprocessor as well as **Grunt** for building projects. I have used **Typescript** extensively to provide type safety through out larger applications. I always keep up to date with the latest web technologies and try to integrate them into projects where applicable. I try to use **HTML5** and **CSS3**  where possible.
+I consider myself a web developer and I have developed my technical skills accordingly. I love Javascript, it seems almost anything can be written using it. I have experience in different libraries such as **Polymer**, **Knockout.JS**, **Angular** and **jQuery** but I am always willing to try something new. I have experience with the **LESS** CSS preprocessor as well as **Grunt** and **Gulp** for building projects. I have used **Typescript** extensively to provide type safety through out larger applications. I always keep up to date with the latest web technologies and try to integrate them into projects where applicable.
 
 I have gained experience developing **C#** applications ranging from command line interfaces, games to cloud hosted websites in the **Azure** cloud. Most projects I have been a part of have used **SQL Server** for data storage.
 
 Source control has always been used on projects I have worked on, so I have experience and knowledge in using **Git**, **Perforce**, **Subversion** and **Source Depot**.
 
-At HP Autonomy I was fortunate enough to receive **Agile** training and I am currently **Scrum Master** on a project. I also try to write **DRY** code and always follow **YAGNI** which I feel is critical as over engineering is a huge issue on most projects.
+At HP Autonomy I was fortunate enough to receive **Agile** training and was **Scrum Master** on a project. I also try to write **DRY** code and always follow **YAGNI** which I feel is critical as over engineering is a huge issue on most projects.
 
 ### Outside Work ###
 
