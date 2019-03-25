@@ -73,7 +73,7 @@ I have recently taken up mountain biking in my spare time and I am really enjoyi
 
 ### Contact ###
 
-Want to get in touch? Email me at [r.browning@live.com](mailto:r.browning@live.com)
+Want to get in touch? Email me at [rik.browning@gmail.com](mailto:rik.browning@gmail.com)
 
 
 
